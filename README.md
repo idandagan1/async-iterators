@@ -2,10 +2,10 @@
 In Node.js 10 they added an experimental support for asynchronously iterating over readable streams.
 
 ### Let's check it out:
-run
-`npm start`
 
-First, let's create a readable stream:
+First, let's assume we want to read a large csv file full of users details.
+
+Now let's create a readable stream:
 ```js
 const readStream = fs.createReadStream(filePath, { encoding: 'utf8' });
 ```
@@ -18,6 +18,9 @@ for await (const chunk of readStream) {
     console.log(`>>> finished chunk number: ${i++}`);
 }
 ```
+
+Run:
+`npm start`
 
 Output:
 ```
