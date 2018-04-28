@@ -1,0 +1,22 @@
+{
+  "name": "async-iterators",
+  "version": "1.0.0",
+  "description": "example for async iterators over readable streams",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idandagan1/async-iterators.git"
+  },
+  "author": "Idan Dagan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idandagan1/async-iterators/issues"
+  },
+  "homepage": "https://github.com/idandagan1/async-iterators#readme"
+}
