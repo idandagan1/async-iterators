@@ -1,5 +1,5 @@
 # Async Iterators
-In Node.js they added an experimental support for asynchronously iterating over readable streams.
+In Node.js 10 they added an experimental support for asynchronously iterating over readable streams.
 
 ### Let's check it out:
 run
